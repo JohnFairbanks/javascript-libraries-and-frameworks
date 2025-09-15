@@ -11,7 +11,7 @@
 *.sln.docstates
 *.env
 
-# Mac General
+# macOS General
 .DS_Store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
