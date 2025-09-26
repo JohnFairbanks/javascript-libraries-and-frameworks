@@ -1,14 +1,13 @@
 
 @font-face {
     font-family:'witchwood-regular';
-    /* src: local("Witchwoode"), */
     src: url('/fonts/witchwoode/Witchwoode-Regular.woff2') format('woff2'),
          url('/fonts/witchwoode/Witchwoode-Regular.woff') format('woff'),
          url('/fonts/witchwoode/Witchwoode-Regular.ttf') format('truetype');
 }
 
 .witchwood {
-    font-family: 'witchwood-regular', sans-serif;
+    font-family: 'witchwoode', sans-serif;
 }
 
 .merriweather-text {
