@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="witchwood red-text larger-font">Slideshow using Splide.js</div>
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="splide__slide__container"><img src="img/carousel/family.jpg" alt=""></div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__slide__container"><img src="img/carousel/laptop.jpg" alt=""></div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__slide__container"><img src="img/carousel/luggage.jpg" alt=""></div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__slide__container"><img src="img/carousel/wedding.jpg" alt=""></div>
+                        </li>
+                    </ul>
+            </div>
+        </section>
+    </div>
+
+        
+    <script src="js/splide.min.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+            var splide = new Splide( '.splide' ,{
+                type : 'slide',
+                perPage: 1,
+            } );
+            splide.mount();
+        } );
+    </script>
+</body>
+</html>

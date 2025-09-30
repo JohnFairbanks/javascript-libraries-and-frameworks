@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family:'witchwood-regular';
+    font-family: 'witchwood-regular';
     src: url('/fonts/witchwoode/Witchwoode-Regular.woff2') format('woff2'),
          url('/fonts/witchwoode/Witchwoode-Regular.woff') format('woff'),
          url('/fonts/witchwoode/Witchwoode-Regular.ttf') format('truetype');
@@ -18,3 +18,35 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.splide {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    background-color: black;
+}
+
+.splide__slide__container img {
+    height: 400px;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+.red-text {
+    color: red;
+}
+
+.larger-font {
+    font-size: 4.75em;
+}
+
+.main {
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornsilk;
+    height: 80vh;
+}
+
